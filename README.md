@@ -101,6 +101,7 @@ listen web_tcp
         server s2 127.0.0.1:2222 check inter 3s
 ```
 Перенаправление с помощью HAProxy
+
 ![HAProxy redirection](https://github.com/duskdemon/sys-29-sflt-02/blob/main/img/sflt-02-hapr-hap1.png)
 
 ---
@@ -186,4 +187,5 @@ listen web_tcp
         server s3 127.0.0.1:3333 check inter 3s
 ```
 Перенаправление с помощью HAProxy
+
 ![HAProxy redirection 2](https://github.com/duskdemon/sys-29-sflt-02/blob/main/img/sflt-02-hapr-hap2.png)
